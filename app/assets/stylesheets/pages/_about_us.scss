@@ -1,26 +1,32 @@
 .presentation {
   text-align: justify;
+  p {
+    color: #CC9659;
+  }
 }
 
 .profile-pic img {
-  height: 249px;
+  height: 250px;
   width: 250px;
   border-radius: 4px;
 }
 
 .founders {
-  padding-left: 25px;
+  padding-left: 45px;
 }
 
 .founders1 {
-  background-color: #CECBBE;
+  // background-color: #CECBBE;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 4px 20px 20px 4px;
   max-height: 250px;
   width: 600px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .resume {
   padding-top: 2px;
+  p {
+    color: #CC9659;
+  }
 }
