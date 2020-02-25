@@ -1,5 +1,85 @@
 <div class="navbar">
+  <div class="row">
+    <div class="logo">
+      <%= link_to root_path do %>
+      <%= image_tag "logoBelex.png", style: "width: 130px;"%>
+      <% end %>
+    </div>
 
+    <div class="menu-right row">
 
+      <div class="menu-right-home">
+        <%= link_to "Accueil", root_path %>
+      </div>
+
+      <div class="menu-right-maisons">
+        <%= link_to "Nos maisons", maisons_path %>
+      </div>
+
+      <div class="menu-right-who">
+        <%= link_to "Qui sommes nous?", about_us_path %>
+      </div>
+
+      <div class="menu-right-join">
+        <%= link_to "Rejoindre un domicile", rejoindre_domicile_path %>
+      </div>
+
+      <div class="menu-right-contact">
+        <%= link_to "Contact", contact_path %>
+      </div>
+
+    </div>
+  </div>
+
+    <!-- BURGER DROPDOWN -->
+    <div class="burgerleft"  onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+
+      <div id="burgerDrop" class="drop-menu-left" >
+        <div class="drop-menu-text">
+        <%= link_to "Accueil", root_path %>
+        </div>
+        <div class="drop-menu-text">
+        <%= link_to "Nos maisons", maisons_path %>
+        </div>
+        <div class="drop-menu-text">
+        <%= link_to "Qui sommes nous?", about_us_path %>
+        </div>
+        <div class="drop-menu-text">
+        <%= link_to "Rejoindre un domicile", rejoindre_domicile_path %>
+        </div>
+        <div class="drop-menu-text">
+        <%= link_to "Contact", contact_path %>
+        </div>
+      </div>
+
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+          document.getElementById("burgerDrop").classList.toggle("show");
+        }
+        window.onclick = function(event) {
+          if (!event.target.matches('.burgerleft')) {
+            var dropdowns = document.getElementsByClassName("drop-menu-left");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                  openDropdown.classList.remove('show');
+                }
+              }
+            var dropdowns = document.getElementsByClassName("burgerleft");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('change')) {
+                  openDropdown.classList.remove('change');
+                }
+              }
+            }
+          }
+        </script>
 
 </div>
