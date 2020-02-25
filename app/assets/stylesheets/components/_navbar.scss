@@ -79,8 +79,7 @@
   border: 1px solid rgba(0,0,0,0.15);
   border-radius: 2px;
   position: absolute;
-  left: 16px;
-  bottom: -105px;
+  right: 14px;
   padding: 0.5rem 0;
   min-width: 10rem;
   z-index: 1000;
@@ -112,6 +111,6 @@
 @media screen and (width: 768px) and (height: 1024px) {
   .burgerleft {
     position: absolute;
-    right: 20px;
+    right: 30px;
   }
 }
