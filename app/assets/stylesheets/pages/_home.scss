@@ -1,12 +1,23 @@
 .accueil-pic {
   width: 1440px;
   height: 400px;
-  margin-top: 125px;
+  // margin-top: 125px;
   position: absolute;
+  top: 104px;
   left: 0px;
-    img {
-    width: 100vw;
+  img {
+    width: 1440px;
     height: 400px;
     object-fit:cover;
   }
+}
+
+.box {
+  background-color: #CC9659;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  top: 550px;
+  border-radius: 20px;
+  padding: 10px;
 }
