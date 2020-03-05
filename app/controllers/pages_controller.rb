@@ -9,7 +9,7 @@ class PagesController < ApplicationController
   def about_us
   end
 
-  def rejoindre_domicile
+  def service
   end
 
   def contact
