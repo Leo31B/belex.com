@@ -13,13 +13,36 @@
   h1 {
     color: #CC9659;
     font-size: 96px;
-    margin-left: 20vw;
+    display: flex;
+    justify-content: center;
   }
 }
 
 .sous-titre {
   h2 {
     font-size: 48px;
-    margin: auto;
+    display: flex;
+    justify-content: center;
   }
+}
+
+.intro {
+  text-align: center;
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.bienvenue {
+  h1 {
+    color: #CC9659;
+    font-size: 96px;
+    display: flex;
+    justify-content: center;
+  }
+  margin-bottom: 50px;
 }
