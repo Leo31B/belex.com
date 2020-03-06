@@ -1,9 +1,18 @@
+.idea-titre {
+  h2 {
+    color: #CC9659;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
 .idea-box {
   background-color: #F2F2F2;
-  width: 1100px;
   border-radius: 10px;
   padding: 20px;
-  margin: auto;
   margin-bottom: 50px;
   p {
     text-align: justify;
@@ -12,16 +21,33 @@
   }
 }
 
+.avantages-titre {
+  h2 {
+    color: #CC9659;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  margin-bottom: 40px;
+}
+
 .avantages-box {
   background-color: #F2F2F2;
-  width: 1100px;
   border-radius: 10px;
   padding: 20px;
-  margin: auto;
   margin-bottom: 50px;
   p {
     text-align: justify;
     font-size: 18px;
     font-weight: 600;
+  }
+}
+
+.impots {
+  display: flex;
+  justify-content: center;
+  img {
+    width: 158px;
+    height: 140px;
   }
 }

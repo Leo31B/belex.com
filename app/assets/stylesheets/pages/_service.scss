@@ -1,14 +1,18 @@
-h2 {
-  color: #CC9659;
-  font-size: 64px;
+.service-titre {
+  h2 {
+    color: #CC9659;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  margin-top: 150px;
+  margin-bottom: 40px;
 }
 
 .service-box {
   background-color: #F2F2F2;
-  width: 800px;
   border-radius: 10px;
-  padding: 10px;
-  margin: auto;
+  padding: 20px;
   margin-bottom: 50px;
   p {
     text-align: center;
@@ -17,12 +21,21 @@ h2 {
   }
 }
 
+.personnel-titre {
+    h2 {
+    color: #CC9659;
+    font-size: 64px;
+    display: flex;
+    justify-content: center;
+  }
+  margin-bottom: 40px;
+}
+
 .personnel-box {
   background-color: #F2F2F2;
-  width: 800px;
   border-radius: 10px;
-  padding: 10px;
-  margin: auto;
+  padding: 20px;
+  margin-bottom: 50px;
   p {
     text-align: center;
     font-size: 18px;
