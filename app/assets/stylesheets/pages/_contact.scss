@@ -1,0 +1,42 @@
+.logo-contact {
+  background-color: #F2F2F2;
+  margin-bottom: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  img {
+    width: 400px;
+  }
+}
+
+.contact-box {
+  background-color: #F2F2F2;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.partie1 {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  p {
+    font-weight: 600;
+  }
+}
+
+.partie2 {
+  display: flex;
+  justify-content: center;
+  p {
+    text-align: left;
+  }
+}
+
+.formulaire {
+  background-color: #F2F2F2;
+  margin-left: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
