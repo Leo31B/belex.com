@@ -1,6 +1,63 @@
-<div class="container">
+<div class="my-slider">
 
+  <input type="radio" id="i1" name="images" checked />
+  <input type="radio" id="i2" name="images" />
+  <input type="radio" id="i3" name="images" />
+  <input type="radio" id="i4" name="images" />
+  <input type="radio" id="i5" name="images" />
 
+  <div class="slide_img" id="one">
+    <%= image_tag("vuebassin2.jpg") %>
 
+    <label class="prev" for="i5"><span>&#x2039;</span></label>
+    <label class="next" for="i2"><span>&#x203a;</span></label>
+  </div>
+
+  <div class="slide_img" id="two">
+    <%= image_tag("vue1.jpg") %>
+
+    <label class="prev" for="i1"><span>&#x2039;</span></label>
+    <label class="next" for="i3"><span>&#x203a;</span></label>
+  </div>
+
+  <div class="slide_img" id="three">
+    <%= image_tag("plan1.jpeg") %>
+
+    <label class="prev" for="i2"><span>&#x2039;</span></label>
+    <label class="next" for="i4"><span>&#x203a;</span></label>
+  </div>
+
+  <div class="slide_img" id="four">
+    <%= image_tag("plan2.jpeg") %>
+
+    <label class="prev" for="i3"><span>&#x2039;</span></label>
+    <label class="next" for="i5"><span>&#x203a;</span></label>
+  </div>
+
+  <div class="slide_img" id="five">
+    <%= image_tag("vue3.jpg") %>
+
+    <label class="prev" for="i4"><span>&#x2039;</span></label>
+    <label class="next" for="i1"><span>&#x203a;</span></label>
+  </div>
+
+  <div id="nav_slide">
+    <label for="i1" class="dots" id="dot1"></label>
+    <label for="i2" class="dots" id="dot2"></label>
+    <label for="i3" class="dots" id="dot3"></label>
+    <label for="i4" class="dots" id="dot4"></label>
+    <label for="i5" class="dots" id="dot5"></label>
+  </div>
+
+</div>
+
+<div class="maison-text row">
+
+  <h2>Résidence Belex</h2>
+
+  <p>La Résidence Belex est idéalement située à Castelnaudary (Aude),  au pied du Grand Bassin (Canal du Midi), à deux pas du centre ville. <br>
+  Elle comprend 4 chambres individuelles (deux côté grand bassin, deux côtés rue) comprenant toutes une salle d’eau, un WC, placard, TV et équipées d’une sécurité Senioradom. <br>
+  Les lieux communs sont la cuisine, la salle à manger et le salon. <br>
+  Une agréble terrasse vous accueillera au bord du grand bassin pour des bons moments de détente !</p>
 
 </div>
