@@ -141,3 +141,12 @@
   margin-bottom: 50px;
   border-radius: 0px 0px 10px 10px;
 }
+
+@media screen and (max-width: 764px) {
+  .maison-text h2 {
+    font-size: 48px;
+  }
+  .my-slider {
+    margin-top: 105px;
+  }
+}

@@ -51,3 +51,18 @@
     height: 140px;
   }
 }
+
+@media screen and (max-width: 764px) {
+  .idea-titre {
+    h2 {
+      font-size: 48px;
+      text-align: center;
+    }
+  }
+  .avantages-titre {
+    h2 {
+      font-size: 48px;
+      text-align: center;
+    }
+  }
+}
