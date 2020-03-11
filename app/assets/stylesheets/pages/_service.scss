@@ -42,3 +42,18 @@
     font-weight: 600;
   }
 }
+
+@media screen and (max-width: 764px) {
+  .service-titre {
+    h2 {
+      font-size: 48px;
+      text-align: center;
+    }
+  }
+  .personnel-titre {
+    h2 {
+      font-size: 48px;
+      text-align: center;
+    }
+  }
+}
