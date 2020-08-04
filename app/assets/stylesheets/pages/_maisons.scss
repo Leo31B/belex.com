@@ -1,4 +1,4 @@
-#i1, #i2, #i3, #i4, #i5{ display: none;}
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10, #i11, #i12{ display: none;}
 
 .my-slider{
     margin: 0 auto;
@@ -82,14 +82,28 @@
   #i2:checked ~ #two  ,
   #i3:checked ~ #three,
   #i4:checked ~ #four ,
-  #i5:checked ~ #five
+  #i5:checked ~ #five ,
+  #i6:checked ~ #six ,
+  #i7:checked ~ #seven ,
+  #i8:checked ~ #height ,
+  #i9:checked ~ #nine ,
+  #i10:checked ~ #ten ,
+  #i11:checked ~ #eleven ,
+  #i12:checked ~ #twelve
   {z-index: 9; animation: scroll 1s ease-in-out;}
 
   #i1:checked  ~  #nav_slide #dot1,
   #i2:checked  ~  #nav_slide #dot2,
   #i3:checked  ~  #nav_slide #dot3,
   #i4:checked  ~  #nav_slide #dot4,
-  #i5:checked  ~  #nav_slide #dot5
+  #i5:checked  ~  #nav_slide #dot5,
+  #i6:checked  ~  #nav_slide #dot6,
+  #i7:checked  ~  #nav_slide #dot7,
+  #i8:checked  ~  #nav_slide #dot8,
+  #i9:checked  ~  #nav_slide #dot9,
+  #i10:checked  ~  #nav_slide #dot10,
+  #i11:checked  ~  #nav_slide #dot11,
+  #i12:checked  ~  #nav_slide #dot12
   { background-color: rgba(255,255,255,.9);}
 
 @keyframes scroll{
