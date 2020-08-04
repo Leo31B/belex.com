@@ -1,4 +1,4 @@
-#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10, #i11, #i12{ display: none;}
+#i1, #i2, #i3, #i4, #i5, #i6, #i7, #i8, #i9, #i10, #i11, #i12, #i13, #i14{ display: none;}
 
 .my-slider{
     margin: 0 auto;
@@ -89,7 +89,9 @@
   #i9:checked ~ #nine ,
   #i10:checked ~ #ten ,
   #i11:checked ~ #eleven ,
-  #i12:checked ~ #twelve
+  #i12:checked ~ #twelve ,
+  #i13:checked ~ #thirteen ,
+  #i14:checked ~ #fourteen
   {z-index: 9; animation: scroll 1s ease-in-out;}
 
   #i1:checked  ~  #nav_slide #dot1,
@@ -103,7 +105,9 @@
   #i9:checked  ~  #nav_slide #dot9,
   #i10:checked  ~  #nav_slide #dot10,
   #i11:checked  ~  #nav_slide #dot11,
-  #i12:checked  ~  #nav_slide #dot12
+  #i12:checked  ~  #nav_slide #dot12,
+  #i13:checked  ~  #nav_slide #dot13,
+  #i14:checked  ~  #nav_slide #dot14
   { background-color: rgba(255,255,255,.9);}
 
 @keyframes scroll{
